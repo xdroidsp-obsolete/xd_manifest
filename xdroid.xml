@@ -34,5 +34,8 @@
   <!-- Vendor Repo -->
   <project path="vendor/xdroid" name="xd_vendor_xdroid" remote="xdroidsp" />
   <project path="vendor/xdroidui" name="xd_vendor_xdroidui" remote="xdroidsp" />
-
+ 
+  <!-- Vendor CAF Repo -->
+  <project path="vendor/qcom/opensource/commonsys/dpm" name="xd_vendor_qcom_opensource_commonsys_dpm-commonsys" remote="xdroidsp" />
+ 
 </manifest>
