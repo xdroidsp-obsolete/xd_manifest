@@ -72,4 +72,7 @@
   <!-- Hardware Repository -->
   <remove-project name="platform/hardware/libhardware" />
 
+  <!-- Package Repository -->
+  <remove-project name="platform/packages/apps/Settings" />
+
 </manifest>
