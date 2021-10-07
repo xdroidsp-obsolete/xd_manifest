@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- xdroid AOSP Remote -->
+  <remote  name="xdroidsp"
+           revision="xd.xii"
+           fetch="https://github.com/xdroidsp" />
+  
+  <!-- Build Repo -->
+  <project path="bionic" name="xd_bionic" remote="xdroidsp" />
+  <project path="build/make" name="xd_build" remote="xdroidsp">
+    <copyfile src="core/root.mk" dest="Makefile" />
+    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+    <linkfile src="core" dest="build/core" />
+    <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+    <linkfile src="target" dest="build/target" />
+    <linkfile src="tools" dest="build/tools" />
+  </project>
+  <project path="build/soong" name="xd_build_soong" remote="xdroidsp" >
+    <linkfile src="root.bp" dest="Android.bp" />
+    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
+  </project>
+
+  <!-- External Repo -->
+  <project path="external/tinycompress" name="xd_external_tinycompress" remote="xdroidsp" />
+
+  <!-- General Repo -->
+  <project path="vendor/xdroid" name="xd_vendor_xdroid" remote="xdroidsp" />
+
+  <!-- Hardware Repo -->
+  <project path="hardware/libhardware" name="xd_hardware_libhardware" remote="xdroidsp" />
+
+</manifest>
