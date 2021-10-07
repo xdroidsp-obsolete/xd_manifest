@@ -1,3 +1,4 @@
+![XD](https://github.com/xyz-prjkt/xyz_assets/raw/main/xd_manifest_v2.png)
 # xdroidCAF | rev2.0 mnmlistyou
 a android based on AOSP with Minimalist UI Design.
 
