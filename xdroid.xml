@@ -51,5 +51,6 @@
  
   <!-- Vendor CAF Repo -->
   <project path="vendor/qcom/opensource/commonsys/dpm" name="xd_vendor_qcom_opensource_commonsys_dpm-commonsys" remote="xdroidsp" />
+  <project path="vendor/qcom/opensource/interfaces" name="xd_vendor_qcom_opensource_interfaces-ext" remote="xdroidsp" />
  
 </manifest>
