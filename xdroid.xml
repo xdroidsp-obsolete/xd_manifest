@@ -5,6 +5,10 @@
   <remote  name="xdroidsp"
            revision="xd.xii"
            fetch="https://github.com/xdroidsp" />
+
+  <!-- xyzprjkt Remote -->
+  <remote  name="xyz-prjkt"
+           fetch="https://github.com/xyz-prjkt "/>
   
   <!-- Build Repo -->
   <project path="bionic" name="xd_bionic" remote="xdroidsp" />
@@ -21,6 +25,11 @@
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
+
+  <!-- Hardware Qualcomm CAF Repo -->
+  <project path="hardware/qcom-caf/msm8998/audio" name="hw_audio" revision="eleven_caf_msm8998" remote="xyz-prjkt" />
+  <project path="hardware/qcom-caf/msm8998/display" name="hw_display" revision="eleven_caf_msm8998" remote="xyz-prjkt" />
+  <project path="hardware/qcom-caf/msm8998/media" name="hw_media" revision="eleven_caf_msm8998" remote="xyz-prjkt" />
 
   <!-- Device Repo -->
   <project path="device/qcom/sepolicy-legacy-um" name="xd_device_qcom_sepolicy-legacy-um" remote="xdroidsp" />
