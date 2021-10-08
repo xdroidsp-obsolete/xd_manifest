@@ -23,4 +23,10 @@ a android based on AOSP with Minimalist UI Design.
 
 ### Credits ###
  * [**AOSP**](https://android.googlesource.com)
+ * [**CAF**](https://source.codeaurora.org)
  * [**LineageOS**](https://github.com/LineageOS)
+ * [**POSP**](https://github.com/PotatoProject)
+ * [**StatixOS**](https://github.com/StatiXOS)
+ * [**WeebProject**](https://github.com/WeebProject)
+ * [**AOSPMasterVayu**](https://github.com/AOSP-Master-Vayu)
+ * [**AEX**](https://github.com/AospExtended)
