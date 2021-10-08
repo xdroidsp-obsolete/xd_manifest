@@ -45,6 +45,7 @@
 
   <!-- External Repository -->
   <remove-project name="platform/external/tinycompress" />
+  <remove-project name="platform/external/selinux" />
 
   <!-- Hardware Repository -->
   <remove-project name="platform/hardware/libhardware" />

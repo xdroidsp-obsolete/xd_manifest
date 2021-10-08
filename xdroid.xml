@@ -37,6 +37,7 @@
 
   <!-- External Repo -->
   <project path="external/tinycompress" name="xd_external_tinycompress" remote="xdroidsp" />
+  <project path="external/selinux" name="xd_external_selinux" remote="xdroidsp" />
 
   <!-- Hardware Repo -->
   <project path="hardware/libhardware" name="xd_hardware_libhardware" remote="xdroidsp" />
