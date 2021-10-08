@@ -6,10 +6,6 @@
            revision="xd.xii"
            fetch="https://github.com/xdroidsp" />
 
-  <!-- xyzprjkt Remote -->
-  <remote  name="xyz-prjkt"
-           fetch="https://github.com/xyz-prjkt" />
-  
   <!-- Build Repo -->
   <project path="bionic" name="xd_bionic" remote="xdroidsp" />
   <project path="build/make" name="xd_build" remote="xdroidsp">
@@ -27,9 +23,9 @@
   </project>
 
   <!-- Hardware Qualcomm CAF Repo -->
-  <project path="hardware/qcom-caf/msm8998/audio" name="hw_audio" revision="xii.msm8998-caf" remote="xyz-prjkt" />
-  <project path="hardware/qcom-caf/msm8998/display" name="hw_display" revision="xii.msm8998-caf" remote="xyz-prjkt" />
-  <project path="hardware/qcom-caf/msm8998/media" name="hw_media" revision="xii.msm8998-caf" remote="xyz-prjkt" />
+  <project path="hardware/qcom-caf/msm8998/audio" name="xd_hardware_qcom-caf_audio" revision="xii-caf-8998" remote="xdroidsp" />
+  <project path="hardware/qcom-caf/msm8998/display" name="xd_hardware_qcom-caf_display" revision="xii-caf-8998" remote="xdroidsp" />
+  <project path="hardware/qcom-caf/msm8998/media" name="xd_hardware_qcom-caf_media" revision="xii-caf-8998" remote="xdroidsp" />
 
   <!-- Device Repo -->
   <project path="device/qcom/sepolicy" name="xd_device_qcom_sepolicy" remote="xdroidsp" />
