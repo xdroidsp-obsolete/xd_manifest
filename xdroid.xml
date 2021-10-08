@@ -32,6 +32,7 @@
   <project path="hardware/qcom-caf/msm8998/media" name="hw_media" revision="xii.msm8998-caf" remote="xyz-prjkt" />
 
   <!-- Device Repo -->
+  <project path="device/qcom/sepolicy" name="xd_device_qcom_sepolicy" remote="xdroidsp" />
   <project path="device/qcom/sepolicy-legacy-um" name="xd_device_qcom_sepolicy-legacy-um" remote="xdroidsp" />
   <project path="device/xdroid/sepolicy" name="xd_device_xdroid_sepolicy" remote="xdroidsp" />
 
