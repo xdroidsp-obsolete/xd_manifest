@@ -34,6 +34,7 @@
   <!-- Device Repo -->
   <project path="device/qcom/sepolicy" name="xd_device_qcom_sepolicy" remote="xdroidsp" />
   <project path="device/qcom/sepolicy-legacy-um" name="xd_device_qcom_sepolicy-legacy-um" remote="xdroidsp" />
+  <project path="device/qcom/sepolicy_vndr" name="xd_device_qcom_sepolicy_vndr" remote="xdroidsp" />
   <project path="device/xdroid/sepolicy" name="xd_device_xdroid_sepolicy" remote="xdroidsp" />
 
   <!-- External Repo -->
