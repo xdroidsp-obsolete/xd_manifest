@@ -52,5 +52,6 @@
  
   <!-- Vendor CAF Repo -->
   <project path="vendor/qcom/opensource/commonsys/dpm" name="xd_vendor_qcom_opensource_commonsys_dpm-commonsys" remote="xdroidsp" />
+  <project path="vendor/qcom/opensource/vibrator" name="xd_vendor_qcom_opensource_vibrator" remote="xdroidsp" />
  
 </manifest>
