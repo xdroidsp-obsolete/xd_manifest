@@ -52,6 +52,11 @@
 
   <!-- Package Repo -->
   <project path="packages/apps/Settings" name="xd_packages_apps_Settings" remote="xdroidsp" />
+  <project path="packages/apps/ThemePicker" name="xd_packages_apps_ThemePicker" remote="xdroidsp" />
+  <project path="packages/apps/Launcher3" name="xd_packages_apps_Launcher3" remote="xdroidsp" />
+
+  <!-- System Repo -->
+  <project path="system/core" name="xd_system_core" remote="xdroidsp"/>
 
   <!-- Vendor Repo -->
   <project path="vendor/google/gms" name="xd_vendor_google_gms" remote="xyzuan" clone-depth="1" />

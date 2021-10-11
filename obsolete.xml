@@ -55,5 +55,10 @@
 
   <!-- Package Repository -->
   <remove-project name="platform/packages/apps/Settings" />
+  <remove-project name="platform/packages/apps/ThemePicker" />
+  <remove-project name="platform/packages/apps/Launcher3" />
+
+  <!-- System Repository -->
+  <remove-project name="platform/system/core"/>
 
 </manifest>
