@@ -42,6 +42,8 @@
   <project path="external/tinycompress" name="xd_external_tinycompress" remote="xdroidsp" />
   <project path="external/tinyxml" name="xd_external_tinyxml" remote="xdroidsp" />
   <project path="external/selinux" name="xd_external_selinux" remote="xdroidsp" />
+  <project path="external/themelib" name="xd_external_themelib" remote="xdroidsp" />
+  <project path="external/colorkt" name="xd_external_colorkt" remote="xdroidsp" />
 
   <!-- Frameworks Repo -->
   <project path="frameworks/base" name="xd_frameworks_base" remote="xdroidsp" />
