@@ -60,5 +60,6 @@
 
   <!-- System Repository -->
   <remove-project name="platform/system/core"/>
+  <remove-project name="platform/libcore" />
 
 </manifest>

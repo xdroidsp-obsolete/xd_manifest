@@ -58,7 +58,8 @@
   <project path="packages/apps/Launcher3" name="xd_packages_apps_Launcher3" remote="xdroidsp" />
 
   <!-- System Repo -->
-  <project path="system/core" name="xd_system_core" remote="xdroidsp"/>
+  <project path="system/core" name="xd_system_core" remote="xdroidsp" />
+  <project path="libcore" name="xd_libcore" remote="xdroidsp" />
 
   <!-- Vendor Repo -->
   <project path="vendor/google/gms" name="xd_vendor_google_gms" remote="xyzuan" clone-depth="1" />
