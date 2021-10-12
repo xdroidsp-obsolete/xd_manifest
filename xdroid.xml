@@ -56,6 +56,8 @@
   <project path="packages/apps/Settings" name="xd_packages_apps_Settings" remote="xdroidsp" />
   <project path="packages/apps/ThemePicker" name="xd_packages_apps_ThemePicker" remote="xdroidsp" />
   <project path="packages/apps/Launcher3" name="xd_packages_apps_Launcher3" remote="xdroidsp" />
+  <project path="packages/modules/Connectivity" name="xd_packages_modules_Connectivity" remote="xdroidsp" />
+  <project path="packages/modules/Permission" name="xd_packages_modules_Permission" remote="xdroidsp" />
 
   <!-- System Repo -->
   <project path="system/core" name="xd_system_core" remote="xdroidsp" />
