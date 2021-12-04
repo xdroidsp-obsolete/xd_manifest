@@ -5,15 +5,20 @@
           fetch="https://source.codeaurora.org/quic/la"
           review="codeaurora.org"
           revision="refs/tags/LA.QSSI.11.0.r1-13600-qssi.0" />
+  
+  <remote name="caf_vendor"
+          fetch="https://source.codeaurora.org/quic/la"
+          review="codeaurora.org"
+          revision="refs/tags/LA.UM.9.14.r1-18300-LAHAINA.0" />
 
   <!-- External -->
-  <project name="platform/external/ant-wireless/ant_client" path="external/ant-wireless/ant_client" remote="caf_system" />
-  <project name="platform/external/ant-wireless/ant_native" path="external/ant-wireless/ant_native" remote="caf_system" />
-  <project name="platform/external/ant-wireless/ant_service" path="external/ant-wireless/ant_service" remote="caf_system" />
-  <project name="platform/external/ant-wireless/hidl" path="external/ant-wireless/hidl" remote="caf_system" />
+  <project name="platform/external/ant-wireless/ant_client" path="external/ant-wireless/ant_client" remote="caf_vendor" />
+  <project name="platform/external/ant-wireless/ant_native" path="external/ant-wireless/ant_native" remote="caf_vendor" />
+  <project name="platform/external/ant-wireless/ant_service" path="external/ant-wireless/ant_service" remote="caf_vendor" />
+  <project name="platform/external/ant-wireless/hidl" path="external/ant-wireless/hidl" remote="caf_vendor" />
 
-  <project path="vendor/qcom/opensource/audio" name="platform/vendor/qcom-opensource/audio" remote="caf_system" />
-  <project path="vendor/qcom/opensource/thermal-engine" name="platform/vendor/qcom-opensource/thermal-engine" remote="caf_system" />
-  <project path="vendor/qcom/opensource/healthd-ext" name="platform/vendor/qcom-opensource/healthd-ext" remote="caf_system" />
+  <project path="vendor/qcom/opensource/audio" name="platform/vendor/qcom-opensource/audio" remote="caf_vendor" />
+  <project path="vendor/qcom/opensource/thermal-engine" name="platform/vendor/qcom-opensource/thermal-engine" remote="caf_vendor" />
+  <project path="vendor/qcom/opensource/healthd-ext" name="platform/vendor/qcom-opensource/healthd-ext" remote="caf_vendor" />
 
 </manifest>
