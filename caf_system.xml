@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <remote name="caf_vendor"
+  <remote name="caf_system"
           fetch="https://source.codeaurora.org/quic/la"
           review="codeaurora.org"
-          revision="refs/tags/LA.UM.9.14.r1-18300-LAHAINA.0" />
+          revision="refs/tags/LA.QSSI.11.0.r1-14100-qssi.0" />
 
   <project path="vendor/qcom/opensource/audio" name="platform/vendor/qcom-opensource/audio" remote="caf_system" />
 
