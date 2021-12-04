@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  
+  <remote name="caf_vendor"
+          fetch="https://source.codeaurora.org/quic/la"
+          review="codeaurora.org"
+          revision="refs/tags/LA.UM.9.14.r1-18300-LAHAINA.0" />
+
+  <project path="vendor/qcom/opensource/thermal-engine" name="platform/vendor/qcom-opensource/thermal-engine" remote="caf_vendor" />
+  <project path="vendor/qcom/opensource/healthd-ext" name="platform/vendor/qcom-opensource/healthd-ext" remote="caf_vendor" />
+
+</manifest>
