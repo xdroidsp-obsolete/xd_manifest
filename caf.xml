@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote name="caf_system"
+          fetch="https://source.codeaurora.org/quic/la"
+          review="codeaurora.org"
+          revision="refs/tags/LA.QSSI.11.0.r1-13600-qssi.0" />
+
+  <!-- External -->
+  <project name="platform/external/ant-wireless/ant_client" path="external/ant-wireless/ant_client" remote="caf_system" />
+  <project name="platform/external/ant-wireless/ant_native" path="external/ant-wireless/ant_native" remote="caf_system" />
+  <project name="platform/external/ant-wireless/ant_service" path="external/ant-wireless/ant_service" remote="caf_system" />
+  <project name="platform/external/ant-wireless/hidl" path="external/ant-wireless/hidl" remote="caf_system" />
+
+  <project path="vendor/qcom/opensource/audio" name="platform/vendor/qcom-opensource/audio" remote="caf_system" />
+  <project path="vendor/qcom/opensource/thermal-engine" name="platform/vendor/qcom-opensource/thermal-engine" remote="caf_system" />
+  <project path="vendor/qcom/opensource/healthd-ext" name="platform/vendor/qcom-opensource/healthd-ext" remote="caf_system" />
+
+</manifest>

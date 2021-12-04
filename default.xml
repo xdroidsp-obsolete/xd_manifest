@@ -1111,6 +1111,7 @@
 
   <!-- Additionals Remote -->
   <include name="obsolete.xml" />
+  <include name="caf.xml" />
   <include name="lineage.xml" />
   <include name="xdroid.xml" />
 
