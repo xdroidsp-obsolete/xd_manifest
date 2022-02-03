@@ -24,6 +24,7 @@ a android based on AOSP with Minimalist UI Design.
 ### Credits ###
  * [**AOSP**](https://android.googlesource.com)
  * [**CAF**](https://source.codeaurora.org)
+ * [**PixelExperience**](https://github.com/PixelExperience)
  * [**LineageOS**](https://github.com/LineageOS)
  * [**POSP**](https://github.com/PotatoProject)
  * [**StatixOS**](https://github.com/StatiXOS)
