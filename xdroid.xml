@@ -17,6 +17,12 @@
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
 
+  <!-- Device Repo -->
+  <project path="device/xdroid/sepolicy" name="xd_device_xdroid_sepolicy" remote="xdsp" />
+  <project path="device/qcom/sepolicy-legacy-um" name="xd_device_qcom_sepolicy-legacy-um" remote="xdsp" />
+  <project path="device/qcom/sepolicy_vndr" name="xd_device_qcom_sepolicy_vndr" remote="xdsp" />
+  <project path="device/qcom/sepolicy" name="xd_device_qcom_sepolicy" remote="xdsp" />
+
   <!-- Frameworks Repo -->
   <project path="frameworks/base" name="xd_frameworks_base" remote="xdsp" />
 
