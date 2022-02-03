@@ -9,11 +9,15 @@
           fetch="https://github.com/PixelExperience"
           revision="twelve"
           review="gerrit.pixelexperience.org" />
-
+  
+  <remote name="pixel-gitlab"
+          fetch="https://gitlab.com/PixelExperience"
+          revision="twelve" />
+  
   <remote name="xdsp"
           fetch="https://github.com/xdroidsp"
           revision="xd.xii" />
-
+  
   <remote name="github"
           fetch="https://github.com/" />
 
